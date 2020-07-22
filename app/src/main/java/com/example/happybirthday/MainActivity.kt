@@ -15,11 +15,10 @@ class MainActivity() : AppCompatActivity(), Parcelable {
         setContentView(R.layout.activity_main)
     }
 
-
-
     override fun writeToParcel(parcel: Parcel, flags: Int) {
 
     }
+    
 
     override fun describeContents(): Int {
         return 0
